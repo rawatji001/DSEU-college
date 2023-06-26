@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0; }
+  
+  html {
+    box-sizing: border-box;
+    font-size: 62.5%; }
+  
+  body {
+    font-family: 'Oswald', sans-serif; }
+  
+  .header__nav {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 1.5rem 4rem;
+    background-color: #222831; }
+    .header__nav-logo {
+      height: 7rem; }
+      .header__nav-logo img {
+        height: 100%; }
+    .header__nav-button {
+      margin-top: 3rem; }
+    .header__nav-btn {
+      color: #EEEEEE;
+      font-weight: 500;
+      padding: 1rem 2rem;
+      cursor: pointer;
+      font-family: inherit;
+      border: none;
+      font-size: 1.4rem;
+      text-align: center;
+      text-decoration: none;
+      margin: 2rem 2rem;
+      border-radius: 1rem;
+      transition: all 0.2s; }
+      .header__nav-btn:hover {
+        background-color: #EEEEEE;
+        color: #222831; }
+      .header__nav-btn:nth-child(5) {
+        background-color: #EEEEEE;
+        color: #222831; }
+    .header__nav-join {
+      background-color: #00ADB5;
+      border: none;
+      padding: 1rem 3rem;
+      margin: 2rem 0;
+      font-family: inherit;
+      cursor: pointer; }
+      .header__nav-join:not(:last-child) {
+        margin: 0 2rem; }
+        .about{
+            margin: 2rem;
+        }
+        .about-heading-box{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 5rem 0;
+        }
+        .about-heading
+        {
+           margin: 2rem;
+           font-size: 5rem;
+           font-family: 'Seymour One', sans-serif;
+           padding: 1rem;
+           color: #222831;
+        }
+        .about-text-box{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: 0 20rem;
+        }
+        .about-text{
+            padding: 2rem;
+            font-size: 1.5rem;
+            word-spacing: 1px;
+            letter-spacing: 1px;
+            line-height: 25px;
+            text-align: justify;
+            color: #484949;
+        }
+    .about-brief{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .about-brief-heading{
+        font-size: 2rem;
+        padding: 1rem;
+        color: #355481;
+        font-weight: bold;
+    }
+    .about-content-box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 3rem 25rem;
+    padding: 1rem;
+    }
+    .about-content{
+        padding: .5rem;
+            font-size: 1.2rem;
+            word-spacing: .5px;
+            letter-spacing: .5px;
+            text-align: justify;
+            color: #1a1a1a;
+            text-align: justify;
+            line-height: 2rem;
+    }
